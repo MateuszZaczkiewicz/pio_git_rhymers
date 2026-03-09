@@ -1,0 +1,46 @@
+### Java ###
+*.class
+*.log
+*.ctxt
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+### Maven ###
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.utils_backup
+pom.xml.vit
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+### Gradle ###
+.gradle/
+build/
+
+### IntelliJ IDEA ###
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+### Eclipse ###
+.metadata/
+bin/
+tmp/
+.tmp/
+.classpath
+.project
+.settings/
+
+### Systemowe (Windows/macOS) ###
+Thumbs.db
+.DS_Store
