@@ -2,6 +2,15 @@ package edu.kis.vh.nursery.list;
 
 public class IntLinkedList {
 
+    private static class Node {
+        public final int value;
+        public Node prev, next;
+
+        public Node(int i) {
+            value = i;
+        }
+    }
+
     Node last;
     int i;
     public static final int DEFAULT_RETURN_VALUE = -1;
